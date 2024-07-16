@@ -45,6 +45,15 @@
   cursor: pointer;
 }
 
+a {
+  text-decoration: none;
+  color: var(--color-text);
+
+  &:visited {
+    color: var(--color-text);
+  }
+}
+
 @media screen and (max-width: 425px) {
   .title {
     font-size: 26px;
