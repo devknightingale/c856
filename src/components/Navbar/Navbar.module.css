@@ -2,12 +2,14 @@
 
 .navbar {
   position: relative;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 30px 0;
   z-index: 2;
-  margin: 0 10%;
+  margin: 0;
+  background-color: var(--color-bg);
 }
 
 .title {
@@ -15,6 +17,7 @@
   font-weight: 600;
   text-decoration: none;
   color: var(--color-gold);
+  margin-left: 10%;
 }
 
 .menuBtn {
@@ -23,6 +26,7 @@
 
 .menu {
   display: flex;
+  margin: 0 5%;
 }
 
 .menuItems {

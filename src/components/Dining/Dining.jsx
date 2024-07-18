@@ -4,7 +4,7 @@ import React from "react";
 
 export const Dining = () => {
   return (
-    <section className={styles.container} id={styles.dining}>
+    <section className={styles.container} id="dining">
       <div className={styles.diningHeaderContainer}>
         <div className={styles.diningHeader}>
           <h1>Food & Drink</h1>
