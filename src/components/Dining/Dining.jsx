@@ -45,11 +45,9 @@ export const Dining = () => {
       <div className={styles.localRegional}>
         <div className={styles.localCuisine}>
           <h1 className={styles.title}>Local Favorites</h1>
-          <p className={styles.description}>Taste of Taniti</p>
         </div>
         <div className={styles.regionalCuisine}>
           <h1 className={styles.title}>Regional Cuisine</h1>
-          <p className={styles.description}>Taste of Home</p>
         </div>
       </div>
     </section>
