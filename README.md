@@ -1,7 +1,7 @@
 # C856 - User Experience Design
 
 This repository is intended for the Performance Assessments (Tasks 1 & 2) of C856, User Experience Design.
-Though only one aspect of this project requires coding, I wanted to capture my process of accomplishing these tasks to potentially place on my resume as a project.
+Though only one aspect of this project (optionally) requires coding, I wanted to capture my process of accomplishing these tasks to potentially place on my resume as a project.
 
 ## Scenario
 
@@ -24,31 +24,35 @@ Per the requirements:
 I built a basic timeline using an Excel spreadsheet of the activities required to create a new design for the Tanitian tourism website, consisting of the following:
 
 1. Requirements Gathering - 1-3 days.
-   
+
    a. I supposed that this process would be continual throughout the project, as the requirements for different stages of the project would vary. The first "Requirements Gathering" phase in this respect involved reviewing the Survey Results and crafting a User Persona from the data.
 
 2. Persona Profiles - 1 day.
 
    a. I used Powerpoint to create a basic template of a user persona, then used a Table to divide the data in Excel into separate categories that could represent specific types of users. The rubric states to "Create a Persona Profile", but I spent a bit of extra time to create a persona for each type of user in the survey. They can be reviewed under /assets/personas.
-4. Low Fidelity Wireframe - 1 day.
+
+3. Low Fidelity Wireframe - 1 day.
 
    a. This will also require another round of "Requirements Gathering" - I have not started this phase yet, but plan to spend a bit of time researching other tourism sites to see what kinds of designs tourism sites generally have, to give me some ideas about how the Tanitian tourism site should be structured.
-6. Guerrilla Usability Testing - 1-3 days.
+
+4. Guerrilla Usability Testing - 1-3 days.
 
    a. This was the timeline I was most unsure of next to Usability Tests, as it depends upon the response time from those I ask to do the testing. As anyone I could ask also works, I decided to give extra time for the Testing categories in case there were any delays in getting responses from test users.
-8. Interactive Prototype - 1-3 days.
+
+5. Interactive Prototype - 1-3 days.
 
    a. A basic website with only HTML/CSS functionality shouldn't take too long to build, but I wanted to give myself a bit of extra time to try and make a well-structured prototype that would be easy to adjust upon feedback from test users. Given I also have to work, the time I can spend on building the website out will be somewhat limited on workdays.
-10. Usability Tests - 1-3 days.
 
-   a. Again, like the Guerilla Testing category, I wanted to give myself extra time not just for hearing back from test users, but also for the sake of having time to make proposed adjustments. Hopefully, with well-structured code, making proposed adjustments to the design will not be as time-consuming.
-12. Gather Sources/Citations - 0.5 days.
-   
-   a. I have been keeping a Word document off to the side with any sources I have used to create assets, such as the persona stock photos. That way, compiling the sources at the end will not be as difficult.
+6. Usability Tests - 1-3 days.
+
+a. Again, like the Guerilla Testing category, I wanted to give myself extra time not just for hearing back from test users, but also for the sake of having time to make proposed adjustments. Hopefully, with well-structured code, making proposed adjustments to the design will not be as time-consuming. 12. Gather Sources/Citations - 0.5 days.
+
+a. I have been keeping a Word document off to the side with any sources I have used to create assets, such as the persona stock photos. That way, compiling the sources at the end will not be as difficult.
 
 Tools: Microsoft Excel
 
 # User Personas
+
 > B. Create a persona profile based on the attached “Survey Results” and “About the Island” supporting documents.
 
 Using the Survey Results data, I split the data into the most common categories and crafted User Personas based on the data provided. Below is an example of one such Persona:
@@ -67,7 +71,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > C. Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
 
-[Pending.]
+![See planning wireframes here.](.assets/planning/wireframe)
 
 ## Guerilla Usability Testing
 
@@ -76,7 +80,28 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 > 1.  Summarize the qualitative feedback you received, specifying which feedback is or is not actionable and relevant to your design.
 > 2.  Explain how you will incorporate the feedback you received to improve your design.
 
-[Pending.]
+The users are as follows, old friends of mine who I reached out to over Discord:
+User 1: A professional website developer, based in Bulgaria. Herefore referred to as "BG".
+User 2: A game development intern, based in Poland. Herefore referred to as "PL".
+User 3: A research lab assistant, based in the United Kingdom. Herefore referred to as "UK".
+
+I also showed them the "VisitTampaBay" website I had used for inspiration on what a tourism website might look like. On that website, the landing page includes a video/gif(?) that loops on the page, as well as my wireframe designs.
+
+1. Users BG and PL pointed out possible performance issues with using a video. BG suggested the video was unnecessary, and to simply use a picture instead if I wanted to imitate that site. PL mentioned that they would worry about accessing the site on mobile due to limited data if there was a video.
+
+Action taken: Reformed idea for landing page to instead be a single picture instead of an image carousel, gif, or video in the background.
+
+2. User BG pointed out the inconsistency with design in the Events page, and told me to get rid of the "Explore" banner proposed in the wireframe mock-up.
+
+Action taken: Did as suggested, and instead kept closer to imitating "VisitTampaBay"'s design of using calendar columns for different categories. This also served to break up the images of the previous sections a little more.
+
+3. User UK pointed out that it is a tourism website, so pictures would be important in "selling" the experience, and said it does a good job of making it look like a place someone would want to visit.
+
+Action taken: None needed, the website already includes many pictures.
+
+4. User BG, User UK pointed out that some "links" don't go anywhere, despite it seeming like they should open new pages.
+
+Action taken: I removed some of the cursor styling that leads to the assumption that an element is clickable for areas that were intended to be demonstrative but not actually lead to further pages in the site. Creating a page for each link seemed far beyond the scope of the project.
 
 ## Interactive Prototype
 
@@ -92,13 +117,19 @@ Tools: Visual Studio Code, HTML, CSS, Javascript, React, Vite
 
 > F. List five objective usability tasks you want users to test in Task 2 for your prototype.
 
-[Pending.]
+1. Check that links in the navbar appropriately scroll down to the correct section.
+2. Check that the navbar collapses for smaller screensizes.
+3. Check responsiveness for smaller screen sizes - ex: are all sections visible in a smaller screen size, or do they start to overlap? (This was something I had issues with when building it, and I think I fixed it, but would appreciate other people testing it as well).
+4. Is the intended purpose of each section apparent, given the design?
+5. Is the text legible at both desktop and mobile screen sizes?
 
 ## Sources & Citations
 
 > G. Acknowledge sources, using in-text citations and references, for content that is quoted, paraphrased, or summarized and for images or graphics from another resource.
 
 ### Image Sources
+
+#### User Personas Pictures
 
 Business Man: Terp, Rene. “Photo of a Man Sitting on Chair near Table · Free Stock Photo.” Pexels, June 2019, [Pexels.com](www.pexels.com/photo/photo-of-a-man-sitting-on-chair-near-table-2505026/).
 
@@ -110,9 +141,20 @@ Sports Team: Pixabay. “Group of Sports Player Kneeling on Field · Free Stock 
 
 Bridal Party: Renee, Kayla. “Cheerful Fiancee and Bridesmaids with Beautiful Bouquets · Free Stock Photo.” Pexels, Nov. 2018, [Pexels.com](www.pexels.com/photo/cheerful-fiancee-and-bridesmaids-with-beautiful-bouquets-1608589/).
 
+#### Stay Page Images
+
+[Pending]
+
+#### Dining Page Images
+
+[Pending]
+
 ### Reference Sources
 
 For User Persona Template inspiration, the actual websites of most image results were not accessible at the time I was working on them (due to site blocking on work network), so I simply did my best imitation of the design in Powerpoint. This was the specific image I used for inspiration:
 ![A blurred image from a Google search result for a user persona template.](./assets/planning/references/User_Persona_Reference.PNG)
 
 “20 User Persona Templates to Create Your Own.” Visme Blog, Visme, 19 June 2024, [Visme](visme.co/blog/user-persona-template/).
+
+For building a tourism website, I checked several tourism websites, but took much inspiration from:
+“Visit Tampa Bay.” Tampa, Florida Vacations | Visit Tampa Bay, www.visittampabay.com/. Accessed 20 July 2024.
