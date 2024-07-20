@@ -5,10 +5,11 @@ import { getImageUrl } from "../../utils";
 export const Footer = () => {
   return (
     <section className={styles.container}>
+      <h1 className={styles.classInfo}>C856 - UI/UX Design - Task 1</h1>
       <div className={styles.horizontalDivider}></div>
       <div className={styles.categoryContainer}>
         <div className={styles.category}>
-          <h1 className={styles.categoryHeader}>Trip Planning</h1>
+          <h1 className={styles.categoryHeader}>Tourism</h1>
           <ul className={styles.links}>
             <li>
               <a href="#home">Home</a>
@@ -26,7 +27,7 @@ export const Footer = () => {
         </div>
 
         <div className={styles.category}>
-          <h1 className={styles.categoryHeader}>About Us</h1>
+          <h1 className={styles.categoryHeader}>Project</h1>
           <ul className={styles.links}>
             <li>
               <a href="#blank">C856 Task 1</a>
@@ -42,8 +43,47 @@ export const Footer = () => {
             </li>
           </ul>
         </div>
+
+        <div className={styles.category}>
+          <h1 className={styles.categoryHeader}>Tools</h1>
+          <ul className={styles.links}>
+            <li>
+              <a href="#blank">HTML</a>
+            </li>
+            <li>
+              <a href="#blank">CSS</a>
+            </li>
+            <li>
+              <a href="#blank">Node.js</a>
+            </li>
+            <li>
+              <a href="#blank">React</a>
+            </li>
+          </ul>
+        </div>
+
+        <div className={styles.category}>
+          <h1 className={styles.categoryHeader}>Links</h1>
+          <ul className={styles.links}>
+            <li>
+              <a href="#blank">LinkedIn</a>
+            </li>
+            <li>
+              <a href="#blank">GitHub</a>
+            </li>
+            <li>
+              <a href="mailto:kroland09@gmail.com">Email</a>
+            </li>
+          </ul>
+        </div>
       </div>
-      <div className={styles.horizontalDivider}></div>
+      <div className={styles.horizontalDivider} id="bottomDivider"></div>
+      <div className={styles.infodump}>
+        <p>
+          You can view the ReadMe detailing the planning stages{" "}
+          <a href="">here</a>.{" "}
+        </p>
+      </div>
     </section>
   );
 };

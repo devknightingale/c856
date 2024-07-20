@@ -46,6 +46,9 @@
   text-align: center;
   width: 100%;
   cursor: default;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   height: 140px;
 }
 .eventCategory:nth-child(1) h1 {
@@ -107,4 +110,41 @@
 .eventDesc h2 {
   font-size: 14px;
   font-weight: 700;
+}
+
+@media screen and (max-width: 1024px) {
+  .eventCategory h1 {
+    font-size: 30px;
+    height: 100px;
+  }
+  .description,
+  .eventDesc h2 {
+    font-size: 12px;
+  }
+  .eventDate h2 {
+    font-size: 14px;
+  }
+  .eventDate h3 {
+    font-size: 26px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .eventListContainer {
+    width: 90%;
+  }
+  .eventCategory h1 {
+    font-size: 30px;
+    height: 100px;
+  }
+  .description,
+  .eventDesc h2 {
+    font-size: 12px;
+  }
+  .eventDate h2 {
+    font-size: 14px;
+  }
+  .eventDate h3 {
+    font-size: 26px;
+  }
 }
