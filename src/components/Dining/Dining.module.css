@@ -3,7 +3,7 @@
   flex-direction: column;
   z-index: 1;
   position: relative;
-  height: 110vh;
+  height: max-content;
   background-color: var(--color-text);
 }
 
@@ -203,5 +203,9 @@ h1 {
   .regionalCuisine {
     width: 100%;
     height: 30vh;
+  }
+  .featuredRestaurant h1,
+  .localRegional h1 {
+    font-size: 26px;
   }
 }
