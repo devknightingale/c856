@@ -208,4 +208,13 @@ h1 {
   .localRegional h1 {
     font-size: 26px;
   }
+
+  .diningHeader {
+    width: 90%;
+  }
+
+  .diningHeader h1 {
+    font-size: 30px;
+    width: max-content;
+  }
 }

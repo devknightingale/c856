@@ -16,8 +16,12 @@
   font-size: 30px;
   font-weight: 600;
   text-decoration: none;
-  color: var(--color-gold);
   margin-left: 10%;
+}
+
+.navbar a:hover {
+  color: var(--color-gold);
+  font-weight: 700;
 }
 
 .menuBtn {
@@ -40,11 +44,6 @@
   color: var(--color-text);
   text-decoration: none;
   text-transform: uppercase;
-
-  &:hover {
-    color: var(--color-gold);
-    font-weight: 700;
-  }
 }
 
 @media screen and (max-width: 830px) {

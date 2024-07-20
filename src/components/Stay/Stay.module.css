@@ -17,6 +17,7 @@
   width: 50%;
   margin: auto;
   flex-direction: column;
+  text-align: center;
   align-items: center;
   gap: 30px;
 }
