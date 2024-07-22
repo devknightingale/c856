@@ -81,6 +81,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 > 2.  Explain how you will incorporate the feedback you received to improve your design.
 
 The users are as follows, old friends of mine who I reached out to over Discord:
+
 User 1: A professional website developer, based in Bulgaria. Herefore referred to as "BG".
 User 2: A game development intern, based in Poland. Herefore referred to as "PL".
 User 3: A research lab assistant, based in the United Kingdom. Herefore referred to as "UK".
