@@ -71,7 +71,7 @@ Tools: Microsoft Powerpoint, Google Search (for inspiration - see Sources & Cita
 
 > C. Create a low-fidelity wireframe showing the suggested flow of your new design for the Tanitian website.
 
-![See planning wireframes here.](.assets/planning/wireframe)
+[See planning wireframes here.](/assets/planning/wireframe/)
 
 ## Guerilla Usability Testing
 
@@ -107,7 +107,7 @@ Action taken: I removed some of the cursor styling that leads to the assumption 
 
 > E. Create an interactive prototype for the Tanitian website that reflects your wireframe design and incorporates the feedback you received during guerrilla testing. Your prototype must be submitted as a URL link.
 
-[Pending.]
+[Prototype](https://tourtaniti.netlify.app/)
 
 (Include link to live site here, through Github Pages.)
 
@@ -131,23 +131,38 @@ Tools: Visual Studio Code, HTML, CSS, Javascript, React, Vite
 
 #### User Personas Pictures
 
-Business Man: Terp, Rene. “Photo of a Man Sitting on Chair near Table · Free Stock Photo.” Pexels, June 2019, [Pexels.com](www.pexels.com/photo/photo-of-a-man-sitting-on-chair-near-table-2505026/).
+1. Business Man: Terp, Rene. “Photo of a Man Sitting on Chair near Table · Free Stock Photo.” Pexels, June 2019, [Pexels.com](www.pexels.com/photo/photo-of-a-man-sitting-on-chair-near-table-2505026/).
 
-Wedding Spouses: Nguyen, Trung. “Selective Focus Photography of Couple on Brown Grass Field · Free Stock Photo.” Pexels, Jan. 2019, [Pexels.com](www.pexels.com/photo/selective-focus-photography-of-couple-on-brown-grass-field-1751681/).
+2. Wedding Spouses: Nguyen, Trung. “Selective Focus Photography of Couple on Brown Grass Field · Free Stock Photo.” Pexels, Jan. 2019, [Pexels.com](www.pexels.com/photo/selective-focus-photography-of-couple-on-brown-grass-field-1751681/).
 
-Vacationing Family: Kampus Production. “Family at the Beach Photos, Download the Best Free Family at the Beach Stock Photos & HD Images.” Pexels, Kampus Production, July 2021, [Pexels.com](www.pexels.com/search/Family%20at%20the%20beach/).
+3. Vacationing Family: Kampus Production. “Family at the Beach Photos, Download the Best Free Family at the Beach Stock Photos & HD Images.” Pexels, Kampus Production, July 2021, [Pexels.com](www.pexels.com/search/Family%20at%20the%20beach/).
 
-Sports Team: Pixabay. “Group of Sports Player Kneeling on Field · Free Stock Photo.” Pexels, Pixabay, Dec. 2016, [Pexels.com](www.pexels.com/photo/action-activity-adult-athletes-262524/).
+4. Sports Team: Pixabay. “Group of Sports Player Kneeling on Field · Free Stock Photo.” Pexels, Pixabay, Dec. 2016, [Pexels.com](www.pexels.com/photo/action-activity-adult-athletes-262524/).
 
-Bridal Party: Renee, Kayla. “Cheerful Fiancee and Bridesmaids with Beautiful Bouquets · Free Stock Photo.” Pexels, Nov. 2018, [Pexels.com](www.pexels.com/photo/cheerful-fiancee-and-bridesmaids-with-beautiful-bouquets-1608589/).
+5. Bridal Party: Renee, Kayla. “Cheerful Fiancee and Bridesmaids with Beautiful Bouquets · Free Stock Photo.” Pexels, Nov. 2018, [Pexels.com](www.pexels.com/photo/cheerful-fiancee-and-bridesmaids-with-beautiful-bouquets-1608589/).
+
+#### Home Page Images
+
+Carniato, Alexandre Saraiva. “A Man Surfing on Sea Waves · Free Stock Photo.” Pexels, 6 Dec. 2018, www.pexels.com/photo/a-man-surfing-on-sea-waves-9790537/.
 
 #### Stay Page Images
 
-[Pending]
+1. La Miko. “White Bed Linen · Free Stock Photo.” Pexels, 17 Feb. 2020, www.pexels.com/photo/white-bed-linen-57686.
+2. Korpovich, Vlada. “Breakfast in Bed.” Pexels, 14 Sept. 2020, www.pexels.com/photo/breakfast-in-bed-5357416/.
+3. Tran, Thanhhoa. “White Pool Loungers near Tree · Free Stock Photo.” Pexels, 9 Oct. 2018, www.pexels.com/photo/white-pool-loungers-near-tree-1488327/.
+4. Boyd, Jason. “A Cozy Cabana Close to a Swimming Pool · Free Stock Photo.” Pexels, 11 Nov. 2019, www.pexels.com/photo/a-cozy-cabana-close-to-a-swimming-pool-3209049/.
 
 #### Dining Page Images
 
-[Pending]
+1. Borba, Jonathan. “Hamburger and Fries Photo · Free Stock Photo.” Pexels, 24 Sept. 2019, www.pexels.com/photo/hamburger-and-fries-photo-2983101/.
+2. Odintsov, Roman. “Seafood on Blue Ceramic Bowl.” Pexels, 14 July 2020, www.pexels.com/photo/seafood-on-blue-ceramic-bowl-4869432/.
+3. Solano, Dario. “Cooked Food on White Plate.” Pexels, 5 Apr. 2020, www.pexels.com/photo/cooked-food-on-white-plate-4085597/.
+4. TP, Rajesh. “White Cream on White Bowl · Free Stock Photo.” Pexels, 25 Nov. 2018, www.pexels.com/photo/white-cream-on-white-bowl-1633525/.
+5. Akyurt, Engin. “Cooked Chicken Dish .” Pexels, 27 Sept. 2019, www.pexels.com/photo/cooked-chicken-dish-2994900/.
+6. Dorobantu, Adrian. “Cooked Food · Free Stock Photo.” Pexels, 2 Apr. 2019, www.pexels.com/photo/cooked-food-2089712/.
+7. P, Oleksandr. “Pile of Shrimps on Plates · Free Stock Photo.” Pexels, 21 Apr. 2018, www.pexels.com/photo/pile-of-shrimps-on-plates-1031780/.
+8. Awey, Bam. “Vegetable and Meat on Black Plate · Free Stock Photo - PEXELS.” Pexels, 13 Mar. 2019, www.pexels.com/photo/vegetable-and-meat-on-black-plate-759813/.
+9. FinGlobal. “Masala Rump Steak: A South African Gatsby Delight.” FinGlobal, 28 June 2024, www.finglobal.com/2024/06/28/gatsby-south-africa-masala-steak-sandwich/.
 
 ### Reference Sources
 
